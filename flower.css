@@ -62,7 +62,7 @@
     background: #E55473;
     padding: 20px 43px;
     color: #FFF;
-    font-family: Lato;
+    font-family: 'Lato';
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
@@ -83,7 +83,7 @@
 .sectiondivp1{
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
-    font-family: Lato;
+    font-family: 'Lato';
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -93,11 +93,13 @@
 /* main img  */
 .maindiv{
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 24px;
     width: 100vw;
-    height: 600px;
-    border: 5px solid
-     red;
+    height: 560px;
+    /* border: 5px solid
+     red; */
      /* margin: 40px 740px 40px 240px; */
 }
 .maindiv1{
@@ -107,6 +109,37 @@
     border-radius: 300px 300px 0px 0px;
     background-color:rgba(167, 33, 98, 0.15) ;
 }
+.maindiv2{
+
+
+    width: 464px;
+    height: 538px;
+    position: relative;
+    border-radius: 300px 300px 0px 0px;
+    background-color: rgba(5, 151, 160, 0.15);
+     
+
+}
+.maindiv3{
+    width: 464px;
+    height: 538px;
+    position: relative;
+    border-radius: 300px 300px 0px 0px;
+    background-color: rgba(71, 125, 17, 0.15);
+}
+
+
+.divtext{
+    display: flex;
+    justify-content: center;
+    gap:400px;
+    padding-top: 20px;
+    text-decoration: underline;
+}
+
+
+
+
 .mainimg{
 position: absolute;
 bottom: 0px;
@@ -210,7 +243,7 @@ background-color: rgba(229, 84, 115, 0.05);
 .section5p{
     color: rgba(39, 39, 39, 0.60);
 text-align: center;
-font-family: Lato;
+font-family: 'Lato';
 font-size: 18px;
 font-style: normal;
 font-weight: 400;
@@ -242,9 +275,7 @@ border-radius: 8px;
 font-size: 25px;
 padding-left: 15px;
 }
-cursor{
-    
-}
+
 ::placeholder{
     padding:22px;
     color: rgba(39, 39, 39, 0.60);
@@ -261,8 +292,8 @@ cursor{
     height: 449px;
     background: #111010;
     margin-top: 128px;
-}
-.footerh1{
+} 
+ .footerh1{
     width: 258px;
     height:58px ;
     font-family: Lato;
@@ -285,11 +316,11 @@ width: 625px;
 text-align: center;
 margin-left:500px ;
 margin-bottom: 20px;
-}
-.footerp1{
+} 
+ .footerp1{
     color: rgba(255, 255, 255, 0.40);
 text-align: center;
-font-family: Lato;
+font-family: 'Lato';
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
@@ -297,7 +328,7 @@ line-height: normal;
 height:19px;
 width: 355px;
 margin-left: 620px;
-}
+} 
 span{
-    color:#E55473
+    color:#E55473;
 }
