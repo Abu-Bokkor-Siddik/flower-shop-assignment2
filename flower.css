@@ -175,3 +175,77 @@ background-color: rgba(229, 84, 115, 0.05);
     line-height: 30px;
     padding:10px;
 }
+/* section4 */
+.section4{
+    display: flex;
+ margin: 48px 240px  128px  240px;
+    justify-content: center;
+    gap: 24px;
+    align-items: center;
+}
+.section4img{
+    width: 342px;
+    height: 396px;
+}
+/* section5 */
+.section05{
+    width: 1440px;
+    background-image: url("./Rectangle 9.png");
+    height: 449px;
+    /* margin: 0px 240px 128px 240px; */
+    border: 5px solid red;
+    margin-left: 75px;
+    
+}
+.section5hh2{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    padding-top: 120px;
+    text-align: center;
+}
+.section5p{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+padding-bottom: 48px;
+}
+.section5inputdiv{
+    display: flex;
+text-align: center;
+justify-content: center;
+gap: 5px;
+}
+.section5button{
+    border-radius: 8px;
+    background: #E55473;
+    padding: 15px 25px;
+    color: #FFF;
+    font-family: 'Lato';
+    font-size: 20px;
+    
+    font-weight: 700;
+    
+    /* left: 280px; */
+}
+.sectioninput{
+    width: 700px;
+height: 64px;
+border-radius: 8px;
+}
+::placeholder{
+    padding:20px;
+    color: rgba(39, 39, 39, 0.60);
+
+    font-family: 'Lato';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
