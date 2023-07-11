@@ -51,6 +51,7 @@
     
    
 }
+/* headerimg */
 .headerimg{
     height: 100%;
     
@@ -90,6 +91,7 @@
     line-height: 30px;
     padding:10px;
 }
+/* main */
 /* main img  */
 .maindiv{
     display: flex;
@@ -98,9 +100,7 @@
     gap: 24px;
     width: 100vw;
     height: 560px;
-    /* border: 5px solid
-     red; */
-     /* margin: 40px 740px 40px 240px; */
+    
 }
 .maindiv1{
     width: 464px;
@@ -150,11 +150,11 @@
     position: absolute;
 
 }
-/* mainsection */
+/* mainsection 1*/
 .mainsection{
     width: 100vw;
     height: 620px;
-/* border: 5px solid red; */
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -166,7 +166,7 @@
     width: 700px;
     height: 200px;
     position: relative;
-    /* border: 5px solid red; */
+   
 }
 .mainsectionh2{
     font-family: 'Lato';
@@ -190,7 +190,7 @@
     left: 200px;
 }
 
-/* section3 */
+/*  mainsection 2 */
 .section3h2{
     font-family: Lato;
     font-size: 30px;
@@ -208,7 +208,7 @@
     line-height: 30px;
     padding:10px;
 }
-/* section4 */
+/* main  section 3*/
 .section4{
     display: flex;
     margin: 48px 240px  128px  240px;
@@ -220,7 +220,7 @@
     width: 342px;
     height: 396px;
 }
-/* section5 */
+/*  main section4 */
 .section05{
     width: 1440px;
     background-image: url("./Rectangle 9.png");
@@ -264,7 +264,7 @@
     
     font-weight: 700;
     
-    /* left: 280px; */
+    
 }
 .sectioninput{
     width: 700px;
@@ -379,4 +379,7 @@ justify-content: center;
      border-radius: 100%;
      
      
+ }
+ .divp{
+    padding-top: 25px;
  }
