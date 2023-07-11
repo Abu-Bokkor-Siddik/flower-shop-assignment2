@@ -141,9 +141,9 @@
 
 
 .mainimg{
-position: absolute;
-bottom: 0px;
-padding: 10px 10px 0px 55px;
+    position: absolute;
+    bottom: 0px;
+    padding: 10px 10px 0px 55px;
 
 }
 .mainh5{
@@ -153,14 +153,14 @@ padding: 10px 10px 0px 55px;
 /* mainsection */
 .mainsection{
     width: 100vw;
-height: 620px;
+    height: 620px;
 /* border: 5px solid red; */
-display: flex;
-justify-content: center;
-align-items: center;
-gap:150px;
-margin: 128px 0px;
-background-color: rgba(229, 84, 115, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:150px;
+    margin: 128px 0px;
+    background-color: rgba(229, 84, 115, 0.05);
 }
 .mainsectionidiv{
     width: 700px;
@@ -211,7 +211,7 @@ background-color: rgba(229, 84, 115, 0.05);
 /* section4 */
 .section4{
     display: flex;
- margin: 48px 240px  128px  240px;
+    margin: 48px 240px  128px  240px;
     justify-content: center;
     gap: 24px;
     align-items: center;
@@ -242,19 +242,19 @@ background-color: rgba(229, 84, 115, 0.05);
 }
 .section5p{
     color: rgba(39, 39, 39, 0.60);
-text-align: center;
-font-family: 'Lato';
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px;
-padding-bottom: 48px;
+    text-align: center;
+    font-family: 'Lato';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 48px;
 }
 .section5inputdiv{
     display: flex;
-text-align: center;
-justify-content: center;
-gap: 5px;
+    text-align: center;
+    justify-content: center;
+    gap: 5px;
 }
 .section5button{
     border-radius: 8px;
@@ -270,10 +270,10 @@ gap: 5px;
 }
 .sectioninput{
     width: 700px;
-height: 64px;
-border-radius: 8px;
-font-size: 25px;
-padding-left: 15px;
+    height: 64px;
+    border-radius: 8px;
+    font-size: 25px;
+    padding-left: 15px;
 }
 
 ::placeholder{
@@ -297,25 +297,25 @@ padding-left: 15px;
     width: 258px;
     height:58px ;
     font-family: Lato;
-font-size: 48px;
-font-style: normal;
-font-weight: 800;
-padding:  100px 24px 70px 690px;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    padding:  100px 24px 70px 690px;
 
 }
 .footerp{
     color: rgba(255, 255, 255, 0.90);
 text-align: center;
-font-family: Lato;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px;
-height:60px;
-width: 625px;
-text-align: center;
-margin-left:500px ;
-margin-bottom: 20px;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+     font-weight: 400;
+     line-height: 30px;
+        height:60px;
+        width: 625px;
+        text-align: center;
+        margin-left:500px ;
+        margin-bottom: 20px;
 } 
  .footerp1{
     color: rgba(255, 255, 255, 0.40);
