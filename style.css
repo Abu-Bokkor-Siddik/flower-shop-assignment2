@@ -171,7 +171,7 @@
 .mainsectionh2{
     font-family: 'Lato';
     font-size: 30px;
-    width: 380px;
+    width: 480px;
     font-weight: 800;
     margin: 0px auto;
     
@@ -182,17 +182,17 @@
     background: #E55473;
     padding: 20px 43px;
     color: #FFF;
-    font-family: Lato;
+    font-family: 'Lato';
     font-size: 20px;
     
     font-weight: 700;
     position: absolute;
-    left: 280px;
+    left: 200px;
 }
 
 /* section3 */
 .section3h2{
-    font-family: 'Lato';
+    font-family: Lato;
     font-size: 30px;
     width: 380px;
     font-weight: 800;
@@ -225,8 +225,6 @@
     width: 1440px;
     background-image: url("./Rectangle 9.png");
     height: 449px;
-    /* margin: 0px 240px 128px 240px; */
-    /* border: 5px solid red; */
     margin-left: 75px;
     
 }
@@ -292,30 +290,39 @@
     height: 449px;
     background: #111010;
     margin-top: 128px;
+    text-align: center;
+
 } 
+/* footerdiv */
+.footerdiv1{
+    text-align: center;
+    margin: 100px 648px 100px 500px;
+    width: 600px;
+    height: 500px;
+    padding-top: 50px;
+    
+    
+}
  .footerh1{
-    width: 258px;
-    height:58px ;
+    width: 358px;
+    height:80px ;
     font-family: Lato;
     font-size: 48px;
     font-style: normal;
     font-weight: 800;
-    padding:  100px 24px 70px 690px;
-
+    margin: 30px auto ;
+    padding:35px;
+    text-align: center;
 }
 .footerp{
     color: rgba(255, 255, 255, 0.90);
-text-align: center;
+    text-align: center;
     font-family: Lato;
     font-size: 18px;
     font-style: normal;
      font-weight: 400;
      line-height: 30px;
-        height:60px;
-        width: 625px;
-        text-align: center;
-        margin-left:500px ;
-        margin-bottom: 20px;
+        
 } 
  .footerp1{
     color: rgba(255, 255, 255, 0.40);
@@ -325,10 +332,19 @@ font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
-height:19px;
-width: 355px;
-margin-left: 620px;
+margin: 25px;
 } 
 span{
     color:#E55473;
+}
+/* shope */
+.shopclass{
+    color:#E55473;
+    display: inline;
+
+}
+/* span3 */
+.span3{
+    color: #FFF;
+    
 }
